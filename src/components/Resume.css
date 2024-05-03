@@ -1,0 +1,70 @@
+body {
+  margin-left: 0px;
+  padding-left: 0px;
+ background-color: #333;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.resume {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.centered {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-heading {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.resume-subheading {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #666666;
+}
+
+.resume-email {
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.resume-list {
+  margin-top: 8px;
+}
+
+.resume-detail {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.hr-line {
+  border: 0;
+  height: 1px;
+  background-color: #cccccc;
+  margin: 20px 0;
+}
+
+.resume-button {
+  position: fixed;
+  bottom: 20px; /* Adjust this value as needed */
+}

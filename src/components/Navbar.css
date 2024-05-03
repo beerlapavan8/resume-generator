@@ -1,0 +1,23 @@
+.navbar{
+    color :rgb(22, 7, 7);
+    background-color: #333;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.navbar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    color:#FAD5A5;
+}
